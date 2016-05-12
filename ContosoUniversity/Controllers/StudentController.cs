@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using ContosoUniversity.Models;
 using ContosoUniversity.DAL;
 using PagedList;
+using System.Data.Entity.Infrastructure;
 
 namespace ContosoUniversity.Controllers
 {
