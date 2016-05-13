@@ -68,7 +68,7 @@ namespace ContosoUniversity.Logging
             string message = String.Concat("Component", componentName, "; Method:", method, "; Timespan:", timespan.ToString(), properties);
             Trace.TraceInformation(message);
         }
-                        
+                            
         public static string FormatExceptionMessage(Exception exception, string fmt, object[] vars)
         {
             var sb = new StringBuilder();
